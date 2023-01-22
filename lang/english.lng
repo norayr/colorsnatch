@@ -1,0 +1,115 @@
+#English language file for the ColorSnatch game.
+#This file is distributed under the same license as the ColorSnatch game.
+
+#Syntax: strings starting with '#' are considered to be comments;
+#Strings starting with a whitespace and empty strings are not read also.
+
+#English is the default language of the ColorSnatch game, so english-to english
+#language file is never used by the program. It is included for convenience of
+#translation to other languages.
+
+#The file is organized as a sequence of pairs of strings, the first string
+#for the English phrase and the second for the translation to whatever language.
+#Order doesn't matter.
+#To translate the file just translate the second string in each pair, leaving the
+#English phrase intact.
+
+#Please feel free to contribute!
+
+
+
+#Strings introduced in version 1.0.0
+
+# Form2 header
+About ColorSnatch
+About ColorSnatch
+
+# Form1 header
+ColorSnatch
+ColorSnatch
+
+# Game menu caption
+Game
+Game
+
+# New game vs player menu caption
+Single Player Game
+Single Player Game
+
+# New game vs player AI caption
+Two Player Game
+Two Player Game
+
+# Quit menu caption
+Quit
+Quit
+
+# Options menu caption
+Options
+Options
+
+# Diversity menu caption
+Diversity
+Diversity
+
+# Small diversity
+Small
+Small
+
+# Medium diversity
+Medium
+Medium
+
+# Great diversity
+Great
+Great
+
+# Time Limit menu caption
+Time Limit
+Time Limit
+
+# 'seconds'
+seconds
+seconds
+
+# Theme
+Theme
+Theme
+
+# Language menu caption
+Language
+Language
+
+# Help menu caption
+Help
+Help
+
+# About menu caption
+About
+About
+
+# Time left indicator
+Time Left:
+Time Left:
+
+# Victory of Player 1
+Victory of Player 1
+Victory of Player 1
+
+# Victory of Player 2
+Victory of Player 2
+Victory of Player 2
+
+# Victory
+Victory
+Victory
+
+#Strings introduced in version 1.0.1
+
+#End Game menu
+End Game
+End Game
+
+#'Are you sure' message
+Sure?
+Sure?

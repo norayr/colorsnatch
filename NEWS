@@ -1,0 +1,44 @@
+Changelog for ColorSnatch game, http://colorsnatch.sourceforge.net/
+
+-----1.0.5-----
+* + Basque translation by 3ARRANO Euskalgintza Taldea (3arrano@euskalerria.org)
+
+-----1.0.4-----
+* + German translation by Stefan Weinreich
+* "Bug" fixed: looks like I forgot to include the internationalization files
+  in the last version's binary releases. Mea culpa.
+* Newer version of Lazarus used to build the binaries may have fixed some bugs.
+
+-----1.0.3-----
+* Colors can now be selected with the mouse
+* Selection box no longer skips forbidden color, instead it becomes 
+  thin and dotted.
+* XML config file implemented
+* Code cleanup
+
+-----1.0.2-----
+* Some code cleanup, minor bugfixes
+* New themes
+* Basic hotkeys added
+* + cp1251-encoded Russian translation for Win32 compatibility
+* + Polish translation by Dominik Zablotny
+* Serious bug fixed: random info was written to config file, causing
+  crash after next start. Thanks to Dominik for pointing that out.
+
+-----1.0.1-----
+* Cleaned up the code a bit. Removed some ugly code, added some more.
+  Separated all playfield routines and objects into fields unit.
+* The game is now able to save its configuration.
+* Bug fixed: It is now impossible to change time limit during the game.
+* The source tarball now has an .lpi file for easier compiling
+* Icons are now in XPM format for better compatibility
+* The game now shows how large your portion of the field is and how much
+  you have gained in the last move.
+* The game now supports internationalization through a super-lightweight
+  internationalization unit.
+* + Russian translation by Denis Lianda
+* + Spanish translation by Jesus Reyes
+* Jesus Reyes has done a Win32 build and added some Windows-specific code. 
+
+-----1.0.0-----
+* Initial release. All basic functionality is there.

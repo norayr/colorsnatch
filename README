@@ -1,0 +1,95 @@
+ColorSnatch 1.0.5
+
+Copyright (c) Denis Lianda, 2004
+
+http://colorsnatch.sourceforge.net/ is the project's web page.
+
+----Legal stuff-----------------
+This program is free software, you can redistribute it 
+and/or modify it under the terms of the GNU General Public 
+License version 2 as published by the Free Software Foundation.
+
+This program is distributed in the hope that it will be useful, 
+but WITHOUT ANY WARRANTY; without even the implied warranty of 
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the 
+GNU General Public License for more details.
+
+The GNU General Public License is available in the COPYING
+file supplied with the game. Just in case, they always have
+a spare copy of the GPL at http://gnu.org/
+
+----Installation-----------------
+Just copy the binary files (you'll have to compile them first,
+of course, if you only have the source) to the directory
+you want them to sit. You could also make a link in your /bin 
+directory or in your Gnome/KDE/whatever menus.
+
+----Playing----------------------
+1) The menu:
+Game -> Single Player Game: Start a game vs the AI.
+Game -> Two Player Game: Start a game vs a human.
+Game -> End Game: End the current game.
+Game -> Quit: Quit.
+
+Options -> Diversity: Choose how small the same
+                      coloured groups of tiles will be.
+Options -> Time Limit: That's it, the time limit.
+
+Theme: choose your theme for the tiles.
+
+Language: choose the language for the interface.
+
+Help -> About: The about box. Totally useless, but tells
+               you about the GPL stuff, so, I think, making
+	       that was worth the time.
+
+2) Gameplay:
+Player 1 starts at the lower left corner, player 2 in the upper
+right. Each turn players choose one color to add to their territory.
+Then, all adjacent tiles of that color are included. The first player
+to capture 50% of the field wins. Press Up/Down to pick a color, and
+Spacebar/Return to make the move before time runs out.
+Since version 1.0.3 you can also click the desired color with the mouse.
+
+
+----Authors and contibutors----------
+Denis Lianda -        most of the code, project administration
+
+Jesus Reyes -         Win32-specific code, Win32 builds, Spanish translation
+Dominik Zablotny -    Polish translation
+Stefan Weinreich -    German translation
+3ARRANO Euskalgintza Taldea (3arrano@euskalerria.org / http://www.3arrano.tk) - 
+                      Basque translation
+
+----Credit for the game concept and the programming tools-------
+
+ColorSnatch is inspired by a wonderful game I used to play 
+on my 80286 machine. The game, called 'Filler', was written 
+in 1990 by Dmitri Pashkov, Michael Katunsky and Alexander 
+Corabelnikov.
+
+In that time programming was still an art; now it is craft
+at best. The games had original ideas, they had performance,
+they had style, they were FUN. Sigh. 
+The 'Filler' game was one of the first PC games I ever 
+played, so I made this clone/remake/whatever chiefly 
+because of nostalgia.
+
+I also wanted to test the Lazarus library/IDE, which I
+discovered only recently. The game took only a couple
+of days of actual programming, so I suppose Lazarus
+is a mighty RAD tool already and only going to improve.
+
+ColorSnatch was written from scratch in Pascal language using
+the Lazarus IDE. Lazarus is a Delphi-compatible free and open 
+source visual components library and IDE for various platforms.
+For example, ColorSnatch was written and compiled under 
+Linux OS (specifically, ASPLinux9, with kernel 2.4.20).
+
+For more info on Lazarus, visit http://lazarus.freepascal.org/
+
+The images and icons for the game were made with The GIMP,
+first with 1.2 version and then with 2.0 as soon as it was
+available.
+
+For more info on The GIMP, visit http://gimp.org/

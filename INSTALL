@@ -1,0 +1,18 @@
+Sorry, no config script, no makefile, no nothing.
+
+You'll need a fresh Free Pascal Compiler and Lazarus libraries to build
+the program. After you have the Lazarus IDE it shouldn't be difficult
+to compile and install the program. If you want to go that way, you
+best try would be http://lazarus.freepascal.org/
+
+The project file (colorsnatch.lpi) is supplied along with the project.
+If you experience problems with it, please use Project -> New Project from 
+file (colorsnatch.lpr), this should help.
+
+If you only intend to use this program, not modify it, your best option
+is to download the binary tarball for your system from wherever you
+downloaded the source.
+
+To install the binaries simply copy the contents of the tarball into the 
+directory of your choosing and optionally create links to it in your /usr/bin
+directory, in your Gnome/KDE menus or wherever you like.

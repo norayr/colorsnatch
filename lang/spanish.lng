@@ -1,0 +1,117 @@
+#Spanish language file for the ColorSnatch game.
+#Translation by Jesus Reyes
+#This file is distributed under the same license as the ColorSnatch game.
+
+#Syntax: strings starting with '#' are considered to be comments;
+#Strings starting with a whitespace and empty strings are not read also.
+
+#English is the default language of the ColorSnatch game, so english-to english
+#language file is never used by the program. It is included for convenience of
+#translation to other languages.
+
+#The file is organized as a sequence of pairs of strings, the first string
+#for the English phrase and the second for the translation to whatever language.
+#Order doesn't matter.
+#To translate the file just translate the second string in each pair, leaving the
+#English phrase intact.
+
+#Please feel free to contribute!
+
+
+
+#Strings introduced in version 1.0.0
+
+# Form2 header
+About ColorSnatch
+A Cerca de ColorSnatch
+
+# Form1 header
+ColorSnatch
+ColorSnatch
+
+# Game menu caption
+Game
+Juego
+
+# New game vs player menu caption
+Single Player Game
+Partida Contra la Máquina
+
+# New game vs player AI caption
+Two Player Game
+Partida de Dos Jugadores
+
+# Quit menu caption
+Quit
+Salir
+
+# Options menu caption
+Options
+Opciones
+
+# Diversity menu caption
+Diversity
+Diversidad
+
+# Small diversity
+Small
+Poca
+
+# Medium diversity
+Medium
+Mediana
+
+# Great diversity
+Great
+Mucha
+
+# Time Limit menu caption
+Time Limit
+Límite de Tiempo
+
+# 'seconds'
+seconds
+segundos
+
+# Theme
+Theme
+Tema
+
+# Language menu caption
+Language
+Lenguaje
+
+# Help menu caption
+Help
+Ayuda
+
+# About menu caption
+About
+Créditos
+
+# Time left indicator
+Time Left:
+Tiempo Restante:
+
+# Victory of Player 1
+Victory of Player 1
+¡El Jugador 1 Ha Ganado!
+
+# Victory of Player 2
+Victory of Player 2
+¡El Jugador 2 Ha Ganado!
+
+# Victory
+Victory
+Victoria
+
+
+#Strings introduced in version 1.0.1
+
+#End Game menu
+End Game
+Terminar Partida
+
+#'Are you sure' message
+Sure?
+¿Esta Ud. Seguro?

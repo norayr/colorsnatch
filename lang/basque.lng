@@ -1,0 +1,118 @@
+#Euskara(Basque) language file for the ColorSnatch game.
+#Translation by 3ARRANO Euskalgintza Taldea (3arrano@euskalerria.org / http://www.3arrano.tk)
+#This file is distributed under the same license as the ColorSnatch game.
+
+#Syntax: strings starting with '#' are considered to be comments;
+#Strings starting with a whitespace and empty strings are not read also.
+
+#English is the default language of the ColorSnatch game, so english-to english
+#language file is never used by the program. It is included for convenience of
+#translation to other languages.
+
+#The file is organized as a sequence of pairs of strings, the first string
+#for the English phrase and the second for the translation to whatever language.
+#Order doesn't matter.
+#To translate the file just translate the second string in each pair, leaving the
+#English phrase intact.
+
+#Please feel free to contribute!
+
+
+
+#Strings introduced in version 1.0.4
+
+# Form2 header
+About ColorSnatch
+ColorSnatchen Inguruan
+
+# Form1 header
+ColorSnatch
+ColorSnatch
+
+# Game menu caption
+Game
+Jokua
+
+# New game vs player menu caption
+Single Player Game
+Jokalari Bakarra
+
+# New game vs player AI caption
+Two Player Game
+Bi Jokalari
+
+# Quit menu caption
+Quit
+Irten
+
+# Options menu caption
+Options
+Aukerak
+
+# Diversity menu caption
+Diversity
+Aniztasuna
+
+# Small diversity
+Small
+Gutxi
+
+# Medium diversity
+Medium
+Pixka bat
+
+# Great diversity
+Great
+Asko
+
+# Time Limit menu caption
+Time Limit
+Denbora Muga
+
+# 'seconds'
+seconds
+segundu
+
+# Theme
+Theme
+Gaia
+
+# Language menu caption
+Language
+Hizkuntza
+
+# Help menu caption
+Help
+Laguntza
+
+# About menu caption
+About
+ColorSnatchen Inguruan
+
+# Time left indicator
+Time Left:
+Gelditzen den denbora:
+
+# Victory of Player 1
+Victory of Player 1
+1. JOKALARIAK IRABAZI DU!
+
+# Victory of Player 2
+Victory of Player 2
+2. JOKALARIAK IRABAZI DU!
+
+# Victory
+Victory
+Garaipena
+
+
+#Strings introduced in version 1.0.1
+
+#End Game menu
+End Game
+Jokaldia Amaitu
+
+#'Are you sure' message
+Sure?
+Ziur zaude?
+
