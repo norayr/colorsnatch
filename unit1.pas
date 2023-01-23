@@ -28,7 +28,7 @@ interface
 
 uses
   Classes, SysUtils, LResources, Forms, Controls, Graphics, Dialogs, ExtCtrls,
-  Buttons, StdCtrls, Menus, ComCtrls, EditBtn, LMessages, LCLType, XMLCfg,
+  Buttons, StdCtrls, Menus, ComCtrls, EditBtn, LMessages, LCLType, laz2_XMLCfg,
   Unit2, fields, langfiles, Process;
 
 type
