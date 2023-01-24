@@ -2169,22 +2169,25 @@ LazarusResources.Add('TForm1','FORMDATA',[
   +#6#8'Theme 10'#10'GroupIndex'#2#1#9'RadioItem'#9#7'OnClick'#7#10'ThemeClick'
   +#0#0#9'TMenuItem'#7'Theme11'#9'AutoCheck'#9#7'Caption'#6#8'Theme 11'#10'Grou'
   +'pIndex'#2#1#9'RadioItem'#9#7'OnClick'#7#10'ThemeClick'#0#0#0#9'TMenuItem'#8
-  +'LangMenu'#7'Caption'#6#8'Language'#0#9'TMenuItem'#11'EnglishMenu'#9'AutoChe'
-  +'ck'#9#7'Caption'#6#7'English'#10'GroupIndex'#2#1#9'RadioItem'#9#7'OnClick'#7
-  +#16'EnglishMenuClick'#0#0#9'TMenuItem'#11'RussianMenu'#9'AutoCheck'#9#7'Capt'
-  +'ion'#6#16'Russian (koi8-r)'#10'GroupIndex'#2#1#9'RadioItem'#9#7'OnClick'#7
-  +#16'RussianMenuClick'#0#0#9'TMenuItem'#18'Russian_cp1251Menu'#9'AutoCheck'#9
-  +#7'Caption'#6#16'Russian (cp1251)'#10'GroupIndex'#2#1#9'RadioItem'#9#7'OnCli'
-  +'ck'#7#23'Russian_cp1251MenuClick'#0#0#9'TMenuItem'#11'SpanishMenu'#9'AutoCh'
-  +'eck'#9#7'Caption'#6#7'Spanish'#10'GroupIndex'#2#1#9'RadioItem'#9#7'OnClick'
-  ,#7#16'SpanishMenuClick'#0#0#9'TMenuItem'#10'PolishMenu'#9'AutoCheck'#9#7'Cap'
-  +'tion'#6#6'Polish'#10'GroupIndex'#2#1#9'RadioItem'#9#7'OnClick'#7#15'PolishM'
-  +'enuClick'#0#0#9'TMenuItem'#10'GermanMenu'#9'AutoCheck'#9#7'Caption'#6#6'Ger'
-  +'man'#10'GroupIndex'#2#1#9'RadioItem'#9#7'OnClick'#7#15'GermanMenuClick'#0#0
-  +#9'TMenuItem'#10'BasqueMenu'#9'AutoCheck'#9#7'Caption'#6#6'Basque'#10'GroupI'
-  +'ndex'#2#1#9'RadioItem'#9#7'OnClick'#7#15'BasqueMenuClick'#0#0#0#9'TMenuItem'
-  +#8'HelpMenu'#7'Caption'#6#4'Help'#0#9'TMenuItem'#5'About'#7'Caption'#6#5'Abo'
-  +'ut'#7'OnClick'#7#10'AboutClick'#0#0#0#0#6'TTimer'#6'Timer2'#7'Enabled'#8#7
-  +'OnTimer'#7#11'Timer2Timer'#12'OnStartTimer'#7#16'Timer2StartTimer'#4'Left'#2
-  +#7#3'Top'#3','#1#0#0#0
+  +'LangMenu'#7'Caption'#6#8'Language'#7'OnClick'#7#13'LangMenuClick'#0#9'TMenu'
+  +'Item'#11'EnglishMenu'#9'AutoCheck'#9#7'Caption'#6#7'English'#10'GroupIndex'
+  +#2#1#9'RadioItem'#9#7'OnClick'#7#16'EnglishMenuClick'#0#0#9'TMenuItem'#16'Ru'
+  +'ssian_UTF8Menu'#7'Caption'#6#14'Russian(UTF-8)'#7'OnClick'#7#21'Russian_UTF'
+  +'8MenuClick'#0#0#9'TMenuItem'#11'RussianMenu'#9'AutoCheck'#9#7'Caption'#6#16
+  +'Russian (koi8-r)'#10'GroupIndex'#2#1#9'RadioItem'#9#7'OnClick'#7#16'Russian'
+  +'MenuClick'#0#0#9'TMenuItem'#18'Russian_cp1251Menu'#9'AutoCheck'#9#7'Caption'
+  +#6#16'Russian (cp1251)'#10'GroupIndex'#2#1#9'RadioItem'#9#7'OnClick'#7#23'Ru'
+  ,'ssian_cp1251MenuClick'#0#0#9'TMenuItem'#11'SpanishMenu'#9'AutoCheck'#9#7'Ca'
+  +'ption'#6#7'Spanish'#10'GroupIndex'#2#1#9'RadioItem'#9#7'OnClick'#7#16'Spani'
+  +'shMenuClick'#0#0#9'TMenuItem'#10'PolishMenu'#9'AutoCheck'#9#7'Caption'#6#6
+  +'Polish'#10'GroupIndex'#2#1#9'RadioItem'#9#7'OnClick'#7#15'PolishMenuClick'#0
+  +#0#9'TMenuItem'#10'GermanMenu'#9'AutoCheck'#9#7'Caption'#6#6'German'#10'Grou'
+  +'pIndex'#2#1#9'RadioItem'#9#7'OnClick'#7#15'GermanMenuClick'#0#0#9'TMenuItem'
+  +#10'BasqueMenu'#9'AutoCheck'#9#7'Caption'#6#6'Basque'#10'GroupIndex'#2#1#9'R'
+  +'adioItem'#9#7'OnClick'#7#15'BasqueMenuClick'#0#0#9'TMenuItem'#12'ArmenianMe'
+  +'nu'#7'Caption'#6#8'Armenian'#7'OnClick'#7#17'ArmenianMenuClick'#0#0#0#9'TMe'
+  +'nuItem'#8'HelpMenu'#7'Caption'#6#4'Help'#0#9'TMenuItem'#5'About'#7'Caption'
+  +#6#5'About'#7'OnClick'#7#10'AboutClick'#0#0#0#0#6'TTimer'#6'Timer2'#7'Enable'
+  +'d'#8#7'OnTimer'#7#11'Timer2Timer'#12'OnStartTimer'#7#16'Timer2StartTimer'#4
+  +'Left'#2#7#3'Top'#3','#1#0#0#0
 ]);

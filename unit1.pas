@@ -32,6 +32,9 @@ uses
   Unit2, fields, langfiles, Process;
 
 type
+
+  { TForm1 }
+
   TForm1 = class(TForm)
     HugeImage: TImage;
     Label1: TLabel;
@@ -45,6 +48,8 @@ type
     EndGame: TMenuItem;
     GermanMenu: TMenuItem;
     BasqueMenu: TMenuItem;
+    ArmenianMenu: TMenuItem;
+    Russian_UTF8Menu: TMenuItem;
     Theme11: TMenuItem;
     Russian_cp1251Menu: TMenuItem;
     PolishMenu: TMenuItem;
@@ -97,6 +102,7 @@ type
     Timer1: TTimer;
     Timer2: TTimer;
     procedure AboutClick(Sender: TObject);
+    procedure ArmenianMenuClick(Sender: TObject);
     procedure BasqueMenuClick(Sender: TObject);
     procedure DivClick(Sender: TObject);
     procedure DrawSelectionMarks(Sender: TObject);
@@ -108,6 +114,7 @@ type
     procedure Form1KeyDown(Sender: TObject; var Key: Word; Shift: TShiftState);
     procedure Form1Paint(Sender: TObject);
     procedure GermanMenuClick(Sender: TObject);
+    procedure LangMenuClick(Sender: TObject);
     procedure NewGame1Click(Sender: TObject);
     procedure NewGame2Click(Sender: TObject);
     procedure Player1Click(Sender: TObject);
@@ -116,6 +123,7 @@ type
     procedure QuitClick(Sender: TObject);
     procedure RussianMenuClick(Sender: TObject);
     procedure Russian_cp1251MenuClick(Sender: TObject);
+    procedure Russian_UTF8MenuClick(Sender: TObject);
     procedure SpanishMenuClick(Sender: TObject);
     procedure ThemeClick(Sender: TObject);
     procedure TimeClick(Sender: TObject);
@@ -338,6 +346,15 @@ end;
 procedure TForm1.AboutClick(Sender: TObject);
 begin
   Form2.Show;
+end;
+
+procedure TForm1.ArmenianMenuClick(Sender: TObject);
+begin
+{Load the Armenian language file}
+  CurrentLanguage:=Form1.ArmenianMenu.MenuIndex;
+  CurrentLanguageFileName:='armenian.lng';
+  lfLoad(LangPath+CurrentLanguageFileName, LangFile);
+  TranslateUI;
 end;
 
 procedure TForm1.BasqueMenuClick(Sender: TObject);
@@ -614,6 +631,11 @@ begin
   TranslateUI;
 end;
 
+procedure TForm1.LangMenuClick(Sender: TObject);
+begin
+
+end;
+
 {Play versus computer}
 procedure TForm1.NewGame1Click(Sender: TObject);
 begin
@@ -698,6 +720,15 @@ begin
 {Load the Russian_cp1251 language file}
   CurrentLanguage:=Form1.Russian_cp1251Menu.MenuIndex;
   CurrentLanguageFileName:='russian_cp1251.lng';
+  lfLoad(LangPath+CurrentLanguageFileName, LangFile);
+  TranslateUI;
+end;
+
+procedure TForm1.Russian_UTF8MenuClick(Sender: TObject);
+begin
+{Load the Russian_cp1251 language file}
+  CurrentLanguage:=Form1.Russian_UTF8Menu.MenuIndex;
+  CurrentLanguageFileName:='russian_utf8.lng';
   lfLoad(LangPath+CurrentLanguageFileName, LangFile);
   TranslateUI;
 end;

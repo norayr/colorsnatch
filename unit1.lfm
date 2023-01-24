@@ -1836,12 +1836,17 @@ object Form1: TForm1
     end
     object LangMenu: TMenuItem
       Caption = 'Language'
+      OnClick = LangMenuClick
       object EnglishMenu: TMenuItem
         AutoCheck = True
         Caption = 'English'
         GroupIndex = 1
         RadioItem = True
         OnClick = EnglishMenuClick
+      end
+      object Russian_UTF8Menu: TMenuItem
+        Caption = 'Russian(UTF-8)'
+        OnClick = Russian_UTF8MenuClick
       end
       object RussianMenu: TMenuItem
         AutoCheck = True
@@ -1884,6 +1889,10 @@ object Form1: TForm1
         GroupIndex = 1
         RadioItem = True
         OnClick = BasqueMenuClick
+      end
+      object ArmenianMenu: TMenuItem
+        Caption = 'Armenian'
+        OnClick = ArmenianMenuClick
       end
     end
     object HelpMenu: TMenuItem
